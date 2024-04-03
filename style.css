@@ -1,0 +1,96 @@
+/* Resetting default margin and padding */
+body,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting up basic font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Container styling */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Title styling */
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field styling */
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 90%;
+  display: block; /* To make it full-width */
+}
+
+button:hover {
+  background-color: #7d91a7;
+}
+
+/* List styling */
+ul {
+  width: 100%;
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Individual task item styling */
+li {
+  width: 90%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 3px;
+  margin: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Button inside task item styling */
+li button {
+  background: #0056b3;
+  border: none;
+  color: white;
+  cursor: pointer;
+  float: right;
+  width: 100px;
+}
